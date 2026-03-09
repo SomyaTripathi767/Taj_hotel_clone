@@ -1,0 +1,558 @@
+.main-login-page {
+  width: 100%;
+  height: 100vh;
+}
+.second-login-page {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+@media screen  and (max-width: 629px) {
+    .second-login-page {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+      }
+}
+.login-header {
+  width: 100%;
+  padding: 20px 30px 0px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+.login-header i {
+  color: black;
+  font-size: 34px;
+  color: #ad8b3a;
+}
+.JoinNow {
+  width: 49.1%;
+  justify-content: center;
+}
+.box-imges {
+  width: 80%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px 0px 50px;
+  gap: 30px;
+}
+.box-imges div img {
+  width: 171.5px;
+  height: 85.75px;
+}
+.join-button-login {
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  vertical-align: middle;
+  appearance: none;
+  width: auto;
+  font-weight: 700;
+  height: 3.177vw;
+  text-transform: none;
+  line-height: 1.3125vw;
+  min-width: auto;
+  font-family: Inter;
+  color: rgb(255, 255, 255);
+  background-color: rgb(173, 139, 58);
+  font-size: 0.9375vw;
+  opacity: 1;
+  cursor: pointer;
+  visibility: unset;
+  outline: 0px;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+  text-decoration: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 0px;
+  padding: 0.93vw 1.87vw;
+  margin: 1.5625vw auto 0vw;
+}
+.heading-text h2 {
+  margin: 0px 0px 1.04167vw;
+  font-weight: 400;
+  color: rgb(69, 68, 63);
+  font-family: Cinzel, "Palatino Linotype", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  line-height: 100%;
+  font-size: 1.66667vw;
+}
+.heading-text h6 {
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  font-size: 1.14583vw;
+  font-family: Cinzel, sans-serif;
+  line-height: 100%;
+  margin: 1.04167vw 0vw;
+  color: rgb(69, 68, 63);
+}
+.box-imges div p {
+  margin: 5px 5px 5px 5px;
+  line-height: 1.5;
+  font-size: 0.9375vw;
+  font-family: Inter;
+  font-weight: 300;
+  color: rgb(69, 68, 63);
+  width: 150px;
+  text-align: start;
+}
+
+.border-middle{
+    border: 0.2px solid;
+}
+
+
+.LOGIN {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+ h2 {
+  margin: 0;
+  font-weight: 400;
+  color: rgb(69, 68, 63);
+  font-family: Cinzel, "Palatino Linotype", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1.6px;
+  line-height: 100%;
+  font-size: 1.66667vw;
+}
+
+.options button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #f0f0f0;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.options button:hover {
+  background-color: #ddd;
+}
+
+form {
+  margin-top: 20px;
+}
+
+form input[type="email"],
+form input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+form .terms-checkbox {
+  margin: 15px 0;
+  text-align: left;
+  font-size: 0.9em;
+  color: #555;
+}
+
+form .terms-checkbox label {
+  margin-left: 5px;
+}
+
+form .continue-button {
+  padding: 10px 20px;
+  background-color:rgb(173, 139, 58);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s;
+}
+
+form .continue-button:hover {
+  background-color: rgb(173, 139, 58);
+}
+
+
+
+ /* General Container */
+.login-container {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+/* Title Section */
+.LOGIN h2 {
+  position: relative;
+  top: -60px;
+  margin: 0;
+  font-weight: 400;
+  color: rgb(69, 68, 63);
+  font-family: Cinzel, "Palatino Linotype", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1.6px;
+  line-height: 100%;
+  font-size: 1.66667vw;
+  margin-top: -80px;
+}
+
+/* Navigation Tabs */
+.nav-tabs {
+  justify-content: center;
+  width: 500px;
+  margin-left: 60px;
+}
+
+.nav-tabs .nav-link {
+  color: gray;
+  transition: color 0.3s, border-bottom 0.3s;
+  font-size: 12px;
+  font-family: Inter;
+}
+
+.nav-tabs .nav-link.active ,.nav-tabs .nav-link.active:hover{
+  border-bottom: 2px solid #ad8b3a;
+  color: rgb(138, 101, 0);
+  font-weight: 500;
+  border: none;
+  border-bottom: 2px solid #ad8b3a;
+}
+.nav-tabs .nav-link:hover{
+  background-color: transparent;
+  border: none;
+  isolation: none;
+}
+/* Form Styling */
+.form-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+/* phone input */
+/* Container styling for overall PhoneInput */
+.phone-input-container {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid gray; /* Line under the input */
+  padding: 5px 0;
+  width: 500px;
+}
+
+/* Input field styling */
+.phone-input-field {
+  border: none !important; /* Remove default border */
+  font-size: 16px;
+  padding-left: 8px;
+  outline: none !important; /* Remove outline on focus */
+  
+}
+.react-tel-input {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  position: relative;
+  width: 100%!important;
+  max-width: 400px!important;
+  margin-left: 100px;
+}
+/* Placeholder styling */
+.phone-input-field::placeholder {
+  color: black;
+  font-size: 16px;
+}
+
+/* Flag styling */
+.phone-input-flag {
+  border: none !important;
+  padding: 0;
+  margin-right: 8px;
+}
+
+/* Adjust flag dropdown */
+.phone-input-flag img {
+  width: 20px;
+  height: 15px;
+}
+/* Container styling for overall PhoneInput */
+.phone-input-container {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid gray; /* Default underline */
+  padding: 5px 0;
+  transition: border-bottom 0.3s ease; /* Smooth transition */
+}
+
+/* Input field styling */
+.phone-input-field {
+  border: none !important; /* Remove default border */
+  font-size: 16px;
+  padding-left: 8px;
+  outline: none !important; /* Remove outline on focus */
+  width: 100%; /* Ensure it takes full width */
+}
+
+/* Placeholder styling */
+.phone-input-field::placeholder {
+  color: gray;
+  font-size: 16px;
+}
+
+/* Add focus effect on container */
+.phone-input-container:focus-within {
+  border-bottom: 1px solid #ad8b3a; /* Highlight bottom border on focus */
+}
+.form-control:focus {
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: none;
+}
+
+/* email */
+.form-control-email {
+  border: none;
+  border-bottom: 1px solid gray; /* Underline */
+  font-size: 16px; /* Adjust font size */
+  width: 100%; /* Full width */
+  padding: 5px 0; /* Padding for spacing */
+  outline: none; /* Remove outline */
+  color: black; /* Text color */
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid gray; /* Underline for both elements */
+  width: 100%; /* Default width */
+  max-width: 400px; /* Adjust based on your design */
+  margin: 0 auto; 
+}
+
+/* Placeholder styling */
+.form-control-email::placeholder {
+  color: gray;
+  font-size: 16px;
+}
+
+/* Focus state styling */
+.form-control-email:focus {
+  border-bottom: 1px solid #ad8b3a; /* Underline on focus */
+  outline: none; /* No outline */
+  transition: border-bottom 0.3s ease; /* Smooth transition */
+}
+
+
+.membership-container {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid gray; /* Underline for both elements */
+  width: 100%; /* Default width */
+  max-width: 400px; /* Adjust based on your design */
+  margin: 0 auto; /* Center the container */
+}
+
+.membership-select {
+  border: none;
+  font-size: 16px;
+  background: none;
+  outline: none;
+  color: black;
+  margin-right: 8px; /* Spacing between dropdown and input */
+  cursor: pointer;
+}
+
+.membership-select:focus {
+  outline: none;
+}
+
+.form-control-membership {
+  border: none;
+  flex: 1; /* Take the remaining space */
+  font-size: 16px;
+  padding: 5px 0;
+  outline: none;
+  color: black;
+}
+
+/* Placeholder styling */
+.form-control-membership::placeholder {
+  color: gray;
+  font-size: 16px;
+}
+
+/* Focus state */
+.form-control-membership:focus {
+  outline: none;
+}
+
+/* Focus underline effect for the container */
+.membership-container:focus-within {
+  border-bottom: 2px solid gold;
+  transition: border-bottom 0.3s ease;
+}
+
+
+
+
+
+.text-danger {
+  font-size: 0.9rem;
+  color: red;
+}
+.form-check-box{
+  font-size: 12px;
+  gap: 20px;
+
+}
+.form-check-input{
+  width: 20px;
+  height: 20px;
+  border-radius:0px ;
+  margin-left: -10px;
+  border: 1px solid black;
+  margin-top: -1px;
+}
+.form-check-label{
+  margin-left: 10px;
+}
+.form-check-input:checked {
+      border: 1px solid #ad8b3a;
+      border-radius: 0px;
+      img{
+        color: #ad8b3a;
+      }
+}
+.form-check-input:checked[type=checkbox] {
+  --bs-form-check-bg-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e);
+  background-color: #ad8b3a;
+  border-radius: 0px;
+}
+.form-check-input[type=checkbox] {
+  border-radius: 0px;
+}
+/* Terms and Policy Links */
+.terms,
+.policy {
+  color: #ad8b3a;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+/* Button States */
+.btn-enabled {
+  background-color: #ad8b3a;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+.continue-button{
+  position: relative;
+  top: 30px;
+}
+.btn-enabled:hover {
+  background-color: #ad8b3a;
+  color: rgb(255, 255, 255);
+}
+.social-login-buttons{
+  position: relative;
+  top: 60px;
+  .google-login{
+    background-color: #ad8b3a;
+    color: white;
+    font-family: inter;
+    border: none;
+    padding: 10px;
+    width: 300px;
+  }
+  
+}
+.btn-disabled {
+  background-color: rgb(173, 139, 58);
+  color: gray;
+  cursor: not-allowed;
+  border: none;
+  outline: none;
+  padding: 10px;
+}
+
+.btn-disabled:hover {
+  background-color: rgb(173, 139, 58);
+  color: gray;
+}
+
+
+/* Logos Section */
+.logos {
+  margin-top: 40px;
+  text-align: center;
+  gap: 50px;
+  margin-left: 40px;
+}
+
+.logos .logo {
+  width: 130px;
+  margin: 0 10px;
+  transition: transform 0.3s ease-in-out;
+}
+.form-submit{
+  position: relative;
+  top: 30px;
+}
+#email-paswoed{
+  display: flex;
+  flex-direction: column;
+}
+#pasword-input{
+  margin-left: 100px;
+}
+.google-button{
+  position: relative;
+  top: 30px;
+  padding: 10px;
+  width: 300px;
+  outline: none;
+  border: none;
+  background-color: #ad8b3a;
+  color: #f0f0f0;
+  font-size: 16px;
+}
+.google-button:hover{
+  position: relative;
+  top: 30px;
+  padding: 10px;
+  width: 300px;
+  outline: none;
+  border: none;
+  background-color: #ad8b3a;
+  color: #f0f0f0;
+  font-size: 16px;
+}
+.or-login{
+  position: relative;
+  top: 40px;
+}
+#memrship{
+  position: relative;
+  left: 100px;
+}

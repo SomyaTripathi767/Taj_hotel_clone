@@ -1,0 +1,133 @@
+.search-box-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-box-inputs {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .search-box-input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .search-box-button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search-box-button.listening {
+    background-color: #f5c542;
+  }
+  
+  .search-box-button.reset {
+    background-color: #ffc0cb;
+  }
+  
+  .suggestion-div {
+    margin-top: 20px;
+    text-align: start;
+  }
+  
+  .suggestion-div h4 {
+    color: #b78a3b;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .location-tegas p {
+    color: #6c757d;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+  }
+  
+  .location-tegas h5 {
+    font-size: 16px;
+    font-weight: 300;
+    color: #333;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .location-tegas h5:hover {
+    color: #b78a3b;
+  }
+  
+  hr.gap {
+    border: none;
+    border-top: 2px solid #8b8787;
+    margin: 15px 0;
+  }
+  
+  .search-box-suggestions {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .suggestion-item {
+    padding: 8px 0;
+    cursor: pointer;
+    font-size: 14px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .suggestion-item:last-child {
+    border-bottom: none;
+  }
+  
+  .suggestion-item:hover {
+    background-color: #f5f5f5;
+    color: #b78a3b;
+  }
+  .search-box-button {
+    background-color: #AD8B3A;
+    color: white;
+  }
+  .search-box-button:hover {
+    background-color: #AD8B3A;
+    color: white;
+  }
+  .icon-mic-cencle{
+    font-size: 18px!important;
+    color: white!important;
+    border: 1px solid;
+  }
+  .icon-mic-cencle:hover{
+    font-size: 18px;
+    color: white;
+    border: 1px solid;
+  }
+  .cencle{
+    background-color: #AD8B3A!important;
+  }
+  .cencle:hover{
+    background-color: #AD8B3A;
+    color: white;
+  }
+  

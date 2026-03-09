@@ -1,0 +1,96 @@
+.confirm-payment-header {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 30px;
+}
+
+.payment-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.payment-details {
+  max-width: 800px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.room-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.room-description {
+  font-size: 1rem;
+  font-family: Cinzel, Palatino Linotype, sans-serif;
+  text-transform: uppercase;
+}
+
+.confirm-payment-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  margin-top: 20px;
+}
+.room-description{
+  text-align: start;
+}
+.payment-success {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 30px;
+  font-family: Cinzel, Palatino Linotype, sans-serif;
+  text-transform: uppercase;
+}
+
+.payment-success h4 {
+  color: #ad8b3a;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-left: 220px;
+  font-family: Cinzel, Palatino Linotype, sans-serif;
+  text-transform: uppercase;
+}
+
+.back-to-home-btn {
+  background-color: #ad8b3a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.back-to-home-btn:hover {
+  background-color: #ad8b3a;
+  color: white;
+}
+.confirm-payment,
+.back-to-home-btn-active {
+  background-color: #ad8b3a;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 10px;
+  transition: background-color 0.3s, color 0.3s;
+  margin-top: 10px !important;
+}
+.confirm-payment:hover,
+.back-to-home-btn-active:hover {
+  background-color: #ad8b3a;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+.back-to-home-btn-active {
+  margin-left: 20px;
+}

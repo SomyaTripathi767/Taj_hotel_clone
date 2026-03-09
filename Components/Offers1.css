@@ -1,0 +1,41 @@
+.Offer1-backgaroud-imge{
+    background-image: url('https://cdn.sanity.io/images/ocl5w36p/prod5/3c44d2a73cec26a4a99db4b2198a642f73267ac7-1892x860.jpg?w=1920&auto=format');
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+}.main-offers-title{
+    margin: 0;
+  font-family: Cinzel, Palatino Linotype, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 3.23vw;
+  line-height: 3.85vw;
+  letter-spacing: -0.05em;
+  color: #45443f;
+  color: #ffffff;
+  line-height: 120%;
+  white-space: nowrap;
+  position: relative;
+  top: 400px;
+  right: 200px;
+}
+#offers-title::before{
+    content: "";
+    position: absolute;
+    top: 67%;
+    width: 50px;
+    height: 2px;
+    background-color: rgb(247, 245, 245);
+    right: 85%;
+}
+.event{
+    background-color:#F6F5F5;
+    height: 500px;
+    overflow: hidden;
+}
+.footer{
+    z-index: 12;
+}

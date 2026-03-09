@@ -1,0 +1,57 @@
+.events-grid {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    height: 300px;
+    overflow: hidden;
+    justify-content: center;
+    padding-top: 50px;
+    flex-wrap: wrap; /* Ensures responsiveness for smaller screens */
+}
+
+.parent-container {
+    position: relative; /* Ensures child elements are positioned correctly */
+}
+
+.box-title {
+    background: #FFFFFF;
+    width: 60%; /* Adjust for desired size */
+    height: auto;
+    position: absolute; /* Fixes the title box */
+    right: 0; /* Aligns to the right */
+    bottom: -20px; /* Adjust to position below the image */
+    padding: 20px;
+    box-shadow: -6px 10px 24px 0px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: start; /* Aligns text inside to the left */
+}
+
+.event-title {
+    margin: 0;
+    font-weight: 500; /* Slightly bolder for emphasis */
+    font-size: 1.2rem; /* Adjust font size for responsiveness */
+    line-height: 1.5rem; /* Adjust line-height for clarity */
+    font-family: "Cinzel", "Palatino Linotype", serif; /* Elegant font */
+    text-transform: uppercase;
+    letter-spacing: -0.05em;
+    color: rgb(69, 68, 63); /* Neutral, elegant color */
+}
+
+.event img {
+    display: block;
+    max-width: 100%;
+    height: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds depth to images */
+}
+
+@media screen and (max-width: 768px) {
+    .box-title {
+        width: 80%; /* Adjust width for smaller screens */
+        position: relative; /* Removes absolute positioning for stack layout */
+        margin: 15px auto; /* Centers the box on smaller screens */
+        bottom: auto;
+    }
+
+    .events-grid {
+        flex-direction: column; /* Stacks events vertically on smaller screens */
+    }
+}

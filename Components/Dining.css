@@ -1,0 +1,156 @@
+.DINING{
+    width: 100%;
+    height: 130vh;
+    background-color: #F6F5F5;
+}
+.first-DINING{
+    display: flex;
+    flex-direction: column;
+  }
+  .DINING-title,.for-DINING {
+    font-size: 36px;
+    font-weight: 700;
+    position: relative;
+    font-family: Cinzel, Palatino Linotype, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 3.23vw;
+    letter-spacing: -0.05em;
+    white-space: nowrap;
+    text-align: start;
+    color: #45443F;
+    left: 200px;
+  }
+  .for-DINING{
+    text-align: start;
+    left: 130px;
+    top: 25px;
+  }
+  .DINING-title::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    top:50%;
+    left: -60px; 
+    border: 1px solid;
+
+  }
+  .DINING-text {
+    font-size: 14px;
+    padding-top: 4px;
+    width: 410px;
+    position: relative;
+    z-index: 2;
+    text-align: start;
+    top: 1px;
+    color: #45443F;
+    left: 300px;
+    a{
+        color: #AD8B3A;
+    }
+  }
+  
+  .DINING-slider {
+    position: relative;
+    max-width: 75%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slide {
+    width: 33.33%; /* Show 3 slides at once */
+    height: auto;
+    padding: 10px;
+  }
+  
+  .slide-image {
+    width: 100%;
+    height: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+   .slider-icon {
+    position: absolute;
+    top: 625%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #AD8B3A;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 10;
+    border: 1px solid #AD8B3A!important;
+  }
+  
+  .slider-button.left {
+    left: 10px;
+    transform: translateY(-50%);
+  }
+  
+  .slider-button.right {
+    right: 10px;
+    transform: translateY(-50%);
+  } 
+  
+  @media (max-width: 768px) {
+    .DINING-title {
+      font-size: 5vw;
+    }
+  
+    .for-DINING {
+      font-size: 3.5rem;
+      margin-left: 10px;
+    }
+  
+    .DINING-text {
+      font-size: 12px;
+      width: 90%;
+    }
+  
+    .slider-container {
+      width: 90%;
+    }
+  
+    .slide {
+      width: 100%; 
+    }
+  }
+  .slide-heading::before{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 1px;
+    background-color: #000;
+    top: 373px;
+    margin-left: -50px;
+  }
+  .slide-heading{
+    margin: 0;
+    font-weight: 400;
+    color: #45443F;
+    font-size: 1.25vw;
+    line-height: 1.70vw;
+    font-family: Cinzel, Palatino Linotype, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -0.05em;
+    padding-top: 50px;
+  }
+ 
+  .slide-text{
+    width: 240px;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.6;
+    max-width: 510px;
+    margin: 0 auto;
+    padding-top: 60px;
+    text-align: start;
+    left: 10%;
+  }
+  

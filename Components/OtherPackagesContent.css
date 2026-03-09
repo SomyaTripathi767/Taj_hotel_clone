@@ -1,0 +1,36 @@
+.mem {
+  font-family: Inter, sans-serif;
+  color: rgb(69, 68, 63);
+  font-weight: 700;
+  font-size: 14px;
+  white-space: nowrap;
+  margin-left: 50px;
+  letter-spacing: 0.04em;
+}
+.memberrate {
+  margin: 0;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.875vw;
+  font-family: Inter, sans-serif;
+  color: #45443f;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.selct-button-other {
+  display: inline-block;
+  font-weight: 700; /* Adjust font weight for better consistency */
+  font-family: Inter, sans-serif;
+  font-size: 12px; /* Ensure the font size is the same */
+  text-transform: none;
+  text-decoration: none;
+  padding: 8px 20px; /* Consistent padding for both buttons */
+  margin-left: 15px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: rgb(173, 139, 58);
+  border: 1px solid rgb(173, 139, 58);
+  background-color: transparent;
+  margin-left: 20px;
+}

@@ -1,0 +1,171 @@
+/* Container for all the room cards */
+.main-room-box-bookroom {
+  padding: 20px;
+}
+
+/* Flexbox layout for room cards */
+.room-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Individual room card */
+.room-card {
+  width: 85%;
+  height: 550px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 24px;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+  left: 15%;
+  display: flex;
+}
+.imge-room-book {
+  width: 35%;
+  height: 400px;
+}
+/* Image styling for the room cards */
+.room-image {
+  width: 35%;
+  height: 200px;
+  object-fit: cover;
+  padding: 10px;
+  position: absolute;
+  left: 15px;
+}
+.left-side-book-room {
+  position: absolute;
+  width: 60%;
+  left: 270px;
+  text-align: start;
+}
+.heading-room {
+  margin: 0px;
+  font-weight: 400;
+  color: rgb(69, 68, 63);
+  font-size: 1.25vw;
+  line-height: 1.7vw;
+  font-family: Cinzel, "Palatino Linotype", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -0.05em;
+  padding-bottom: 0.625vw;
+  margin-top: 10px;
+  font-size: 16px;
+}
+.alert {
+  margin-top: -15px;
+  margin-left: -11px;
+  font-weight: 300;
+  font-size: 0.833333vw;
+  line-height: 1.25vw;
+  font-family: Inter, sans-serif;
+  color: rgb(195, 15, 15);
+}
+.sec-box-left-side {
+  margin-top: -15px;
+  border: 0.052vw solid rgb(215, 213, 207);
+  height: 200px;
+  .sec-right-head1 {
+    margin: 0px;
+    font-size: 1.04167vw;
+    line-height: 140%;
+    font-family: Inter, sans-serif;
+    color: rgb(69, 68, 63);
+    font-weight: 400;
+    padding: 10px;
+  }
+  .romm-left-list {
+    list-style-type: square;
+    margin: 0px;
+    font-weight: 300;
+    line-height: 1.25vw;
+    font-family: Inter, sans-serif;
+    color: rgb(69, 68, 63);
+    font-size: 0.833333vw;
+  }
+  .LInk {
+    margin: 0.5vw 0px 0px;
+    color: rgb(173, 139, 58);
+    letter-spacing: 0.1em;
+    font-family: Inter, sans-serif;
+    text-decoration: underline;
+    font-size: 0.833333vw;
+    font-weight: 300;
+    cursor: pointer;
+    line-height: 140%;
+    padding-left: 20px;
+  }
+}
+.right-side-sec-box {
+  width: 70%;
+  border: 0.052vw solid rgb(215, 213, 207);
+}
+.sec-box-left-side {
+  display: flex;
+  .rate{
+    margin: 0px;
+    font-family: Inter, sans-serif;
+    color: rgb(69, 68, 63);
+    font-weight: 700;
+    font-size: 0.73vw;
+    line-height: 140%;
+    white-space: nowrap;
+    padding-left: 28px;
+    letter-spacing: 0.04em;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  .sel-rate{
+    margin: 0px;
+    font-family: Inter, sans-serif;
+    color: rgb(69, 68, 63);
+    font-weight: 700;
+    font-size: 0.73vw;
+    line-height: 140%;
+    white-space: nowrap;
+    padding-left: 28px;
+    letter-spacing: 0.04em;
+    margin-top: 10px;
+    margin-left: 1px;
+  }
+  .price{
+    margin: 0;
+    font-weight: 300;
+    font-size:12px;
+    line-height: 1.875vw;
+    font-family: Inter, sans-serif;
+    color: #45443F;
+    padding-left: 25px;
+    padding-top: -5px;
+  }
+  .login-join-button,
+.selct-button {
+  display: inline-block;
+  font-weight: 700; /* Adjust font weight for better consistency */
+  font-family: Inter, sans-serif;
+  font-size: 12px; /* Ensure the font size is the same */
+  text-transform: none;
+  text-decoration: none;
+  padding: 8px 20px; /* Consistent padding for both buttons */
+  margin-left: 15px;
+  margin-top: 5px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-join-button {
+  background-color: rgb(173, 139, 58);
+  color: rgb(255, 255, 255) !important;
+  border: none; /* Remove border for this button */
+}
+.selct-button {
+  color: rgb(173, 139, 58);
+  border: 1px solid rgb(173, 139, 58);
+  background-color: transparent;
+  margin-left: 22px;
+}
+}

@@ -1,0 +1,101 @@
+.Destination-backgaroud-imge{
+    background-image: url('https://cdn.sanity.io/images/ocl5w36p/prod5/0cd0ad4a03c5e5e38a637d1b7dc7fa81fd47f895-3840x1720.jpg?w=1920&auto=format');
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(0.8); 
+}
+.title-Destination{
+    position: absolute;
+  top: 65%; /* Adjusted to move higher */
+  right: 20%;
+  width: 100%;
+  font-family: Cinzel, Palatino Linotype, sans-serif;
+  text-align: center;
+  /* Centering the text */
+  color: #ffffff;
+  line-height: 120%;
+  white-space: nowrap;
+}
+.title-Destination::before{
+    content: ""; /* Empty content for the lines */
+    position: absolute;
+    top: 50%; /* Aligns the lines vertically with the text */
+    width: 50px; /* Length of the lines */
+    height: 2px; /* Thickness of the lines */
+    background-color: rgb(247, 245, 245); /* Line color */
+    right: 67%;
+}
+.input-container-destination{
+    position: absolute;
+    top: 88%; /* Adjust position below heading */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center horizontally */
+    width: 80%; /* Adjust width */
+}
+.input-container-destination input{
+    width: 100%;
+    padding: 10px 45px 10px 40px; /* Space for icons on both sides */
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+    border: none;
+}
+.input-container-destination .search-icon {
+    position: absolute;
+    top: 46%;
+    left: 15px;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    color: #888;
+  }
+  .input-container-destination .voice-icon {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    color: #888;
+    cursor: pointer;
+  }
+  #Destination-TAj{
+    top: 0px;
+  }
+  #Destination-slider{
+    top: -450px;
+    position: relative;
+  }
+  #destionation-room-sec{
+    position: relative;
+    top: -400px;
+  }
+  #destination-Footer{
+    position: relative;
+    top: -400px;
+  }
+  #destination{
+    height: 5577px;
+  }
+.search-input{
+  position: fixed;
+  left: 0px;
+  top: -20px;
+}
+.searchbox-open{
+  position: absolute;
+  top: -350px;
+  width: 1000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

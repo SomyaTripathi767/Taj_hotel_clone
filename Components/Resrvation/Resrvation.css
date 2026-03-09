@@ -1,0 +1,299 @@
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+}
+.con-room,
+.con-res-button {
+  margin-top: 30px;
+  width: 150px;
+  height: 50px;
+  border: 1px solid #ad8b3a;
+  border-radius: 30px;
+  background-color: transparent;
+  font-size: 16px;
+  color: #ad8b3a;
+  font-family: "Arial", sans-serif; /* Match font style */
+  cursor: pointer;
+  position: relative;
+}
+.con-room.active {
+  border-color: #fdfdfd; /* Dark border for active state */
+  color: rgb(69, 68, 63);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+.line {
+  margin-top: 30px;
+  height: 1px;
+  width: 30px; /* Adjust the length of the line */
+  background-color: #ad8b3a; /* Golden line */
+}
+
+.botton-part-resrvation {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.resrvation-form {
+  width: 70%;
+  height: auto;
+  height: 300px;
+}
+.you-stay-right-side {
+  width: 30%;
+  height: 40vh;
+  top: 0;
+  padding: 20px;
+}
+
+.resrvation-form {
+  width: 70%;
+  padding: 20px;
+  border: 0.05vw solid rgb(215, 213, 207);
+  max-width: 750px;
+  margin: 0 0 10px 100px;
+  margin-top: 20px;
+  height: auto;
+}
+
+.form-title {
+  margin: 0px;
+  font-size: 2vw;
+  color: rgb(69, 68, 63);
+  font-family: Cinzel, "Palatino Linotype", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -0.05em;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.form-subtitle {
+  margin: 0px 0px 1.5625vw;
+  color: rgb(69, 68, 63);
+  font-size: 1.32vw;
+  font-family: Inter, sans-serif;
+  text-align: left;
+}
+
+.guest-details-form .form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.form-control-title {
+  flex: 1;
+  border: none;
+  border-bottom: 1px solid gray; /* Underline */
+  font-size: 16px; /* Adjust font size */
+  width: 100%; /* Full width */
+  padding: 5px 0; /* Padding for spacing */
+  outline: none; /* Remove outline */
+  color: black; /* Text color */
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid gray; /* Underline for both elements */
+  width: 100%; /* Default width */
+  max-width: 400px; /* Adjust based on your design */
+  margin: 0 auto;
+}
+.name-form-input{
+  flex: 1;
+  border: none;
+  outline: none;
+   border-bottom: 1px solid gray; 
+  font-size: 16px; 
+  padding: 5px 0; 
+  outline: none;
+  color: black; 
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black; 
+  margin: 0 auto; 
+}
+.mobile-number {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  
+}
+.form-control-email{
+  flex: 1;
+}
+
+.country-code {
+  font-size: 14px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.form-control-gst{
+  border: none;
+  border-radius: 0px;
+}
+.special-request {
+  flex: 1;
+  height: 100px;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid ;
+  border-radius: 0px;
+  border: none;
+  border-bottom: 1px solid gray; /* Underline */
+  font-size: 16px; /* Adjust font size */
+  padding: 5px 0; /* Padding for spacing */
+  outline: none; /* Remove outline */
+  color: black; /* Text color */
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid gray; /* Underline for both elements */
+  margin: 0 auto;
+  height: 20px;
+}
+form input[type="email"], form input[type="text"] {
+ width: 90%;
+  flex: 1;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid ;
+  border-radius: 0px;
+  border: none;
+  border-bottom: 1px solid gray; /* Underline */
+  font-size: 16px; /* Adjust font size */
+  padding: 5px 0; /* Padding for spacing */
+  outline: none; /* Remove outline */
+  color: black; /* Text color */
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid gray; /* Underline for both elements */
+  margin: 0 auto;
+  height: 40px;
+}
+.char-counter {
+  font-size: 12px;
+  color: #999;
+  text-align: right;
+}
+
+.checkbox-label {
+  font-size: 14px;
+  color: #333;
+}
+
+.checkbox-label a {
+  color: #ad8b3a;
+  text-decoration: none;
+}
+
+.checkbox-label a:hover {
+  text-decoration: underline;
+}
+
+.pay-button {
+  width: 30%;
+  padding: 10px;
+  background-color: #ad8b3a;
+  color: #fdfdfd;
+  border: none;
+  font-size: 16px;
+  cursor: not-allowed;
+}
+.pay-button:hover {
+  width: 30%;
+  padding: 10px;
+  background-color: #ad8b3a;
+  color: #fdfdfd;
+  border: none;
+  font-size: 16px;
+}
+
+
+
+/* Common focus styles for all inputs */
+form input[type="email"]:focus,
+form input[type="text"]:focus,
+form select:focus,
+form textarea:focus {
+  border-bottom: 2px solid #ad8b3a; /* Underline with golden color */
+  outline: none;
+}
+
+/* Checkbox custom styles */
+.checkbox-label input[type="checkbox"]:checked {
+  accent-color: #ad8b3a; /* Checkbox tick mark and border in golden color */
+}
+.pay-button:disabled {
+  background-color: #ddd;
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* Ensure checkbox container styling remains consistent */
+.checkbox-label input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* On hover for enabled button */
+form input[type="checkbox"]:checked ~ .pay-button:hover {
+  background-color: #c39a3a; /* Slightly darker golden shade on hover */
+}
+
+
+
+.pay-button-active {
+  background-color: #ad8b3a; /* New style after click */
+  color: white;
+  outline: none;
+  border: none;
+  padding: 15px 20px 15px 20px;
+}
+.pay-button-active:hover {
+  background-color: #ad8b3a; /* New style after click */
+  color: white;
+  outline: none;
+  border: none;
+}
+.second-form form{
+  border: 1px solid #999;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  p{
+    font-size: 18px;
+  }
+}
+
+
+
+.main-form-booking{
+  display: flex;
+}
+.confer-button{
+  border: none;
+  outline: none;
+  width: 200px;
+  background-color: #ad8b3a;
+  padding: 10px;
+  color: white;
+}
+.confer-button:hover{
+  border: none;
+  outline: none;
+  width: 200px;
+  background-color: #ad8b3a;
+  padding: 10px;
+  color: white;
+}
+.heading1{
+  font-family: "Arial", sans-serif;
+  font-weight: 100;
+}
+.booking-details{
+  text-align: START;
+}
+.sec-textvbn{
+  text-align: start;
+}

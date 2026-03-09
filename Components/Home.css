@@ -1,0 +1,350 @@
+.taj-header {
+    background-color: transparent;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Ensure the header stays on top */
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo {
+    color: white;
+    margin-left: 30px;
+}
+
+.nav {
+    padding: 0;
+    display: flex;
+    margin-left: -30px;
+}
+
+.right-button {
+    display: flex;
+    position: relative;
+    right: 100px;
+}
+
+.taj-header .nav-link {
+    color: white;
+    font-weight: 400;
+}
+
+.taj-header .account {
+    font-size: 18px;
+    color: white;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.taj-header .book-button {
+    width: 200px;
+    background-color: #AD8B3A;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-link i {
+    margin-left: 5px; /* Adjust the value as needed */
+}
+/* color chenge navbar */
+/* Header Style */
+.taj-header {
+  /* background-color: transparent;  */
+  transition: background-color 0.3s, padding 0.3s;
+}
+
+.taj-header.scrolled {
+  background-color: #ffffff;
+  border-bottom: 0.1px solid; /* Background color after scroll */
+}
+
+.logo img {
+  width: 80px;
+  transition: width 0.3s ease; /* Smooth transition for the logo */
+}
+
+.taj-header.scrolled .logo img {
+  width: 60px; /* Reduce logo size when scrolled */
+}
+.scrolled-logo {
+  width: 50px!important;
+  transition: width 0.3s ease;
+}
+.nav-link {
+  color: white;
+  font-weight: 400;
+  transition: color 0.3s ease; /* Smooth transition for nav link color */
+}
+
+.taj-header.scrolled .nav-link {
+  color: #AD8B3A; /* Change nav link color when scrolled */
+}
+
+.book-button {
+  background-color: #AD8B3A;
+  color: white;
+  transition: background-color 0.3s ease;
+  margin-top: -15px;
+}
+.book-button:hover{
+  background-color: #AD8B3A;
+  color: white;
+  transition: background-color 0.3s ease;
+  margin-top: -px;
+}
+
+.taj-header.scrolled .book-button {
+  background-color: #AD8B3A; /* Change button color on scroll */
+}
+
+.account {
+  font-size: 18px;
+  color: white;
+  transition: color 0.3s ease;
+  margin-top: -13px;
+}
+
+.taj-header.scrolled .account {
+  color: #AD8B3A; /* Change account text color when scrolled */
+}
+.menu-icon-header {
+  display: none;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 3px;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Background Video */
+.background-video {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; /* Ensure the video stays in the background */
+}
+
+/* Search Icon */
+.fa-magnifying-glass {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2rem;
+  color: white;
+  transform: translate(-50%, -50%);
+}
+
+/* Home page - Video background */
+.background-video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.main-page {
+    position: relative;
+    z-index: 1;
+    padding-top: 60px; /* Adjust according to your header height */
+}
+
+.main-page i {
+    position: absolute;
+    top: 560px; /* Adjust the vertical position */
+    left: 50%; /* Center the icon horizontally */
+    transform: translateX(-50%); /* Perfectly center the icon */
+    font-size: 24px;
+    background-color: #AD8B3A;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Circular icon */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center the icon inside the circle */
+}
+
+.search-bar {
+  position: absolute;
+  top: 560px; /* Match the icon's top position */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px; /* Adjust width as needed */
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  border-radius: 5px;
+  padding: 10px;
+  display: none; /* Initially hide the search bar */
+}
+
+/* Hospitality Section */
+.hospitality-section {
+    text-align: center;
+    padding: 50px;
+    padding-top: 620px;
+    padding-top: 650px;
+  }
+  
+  .heading {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    position: relative;
+    margin: 0;
+    font-family: Cinzel, Palatino Linotype, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 3.23vw;
+    line-height: 3.85vw;
+    letter-spacing: -0.05em;
+    color: #45443F;
+    line-height: 120%;
+    white-space: nowrap;
+    color: #45443F;
+  }
+  
+  .heading::before, .heading::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    background-color: #000;
+    top: 50%;
+  }
+  
+  .heading::before {
+    left: 90px;
+  }
+  
+  .heading::after {
+    right: 90px;
+  }
+  
+  .description {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.6;
+    max-width: 510px;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+
+/* Container for the image */
+.image-box {
+  width: 80%;
+  height: 70vh;
+  margin-left: 130px;
+  margin-top: 50px;
+  position: relative;
+  display: flex;
+  background-color: beige;
+}
+.imge-container{
+  width: 100%;
+  height: 100%;
+}
+/* Full background image */
+.image-background {
+  width: 100.5%;
+  height: 70vh;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: row; /* Align boxes horizontally */
+}
+/* Boxes that will overlay the image */
+.overlay-box {
+  position: relative;
+  width: 30%!important; 
+  height: 100%; /* Full height of the container */
+  border-right: 1px solid white; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+/* No border for the last box */
+.overlay-box:nth-child(4) {
+  border-right: none;
+}
+
+/* Overlay text inside each box */
+.overlay {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  height: 200px;
+  text-align: center;
+  margin: 15px;
+  justify-content: center;
+}
+.overlay.p-text{
+  margin: 2.083vw 0px 0px;
+    font-weight: 300;
+    font-size: 1.14583vw;
+    line-height: 1.56vw;
+    font-family: Inter, sans-serif;
+    color: rgb(35, 37, 39)!important;
+}
+.overlay-h4-text{
+  margin: 0px;
+    font-weight: 400;
+    font-size: 1.67vw;
+    line-height: 1.82vw;
+    font-family: Cinzel, "Palatino Linotype", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -0.05em;
+    color: rgb(35, 37, 39);
+    text-align: center;
+    padding: 20px;
+    padding-left: 45px;
+    width: 100%;
+}
+/* Show overlay text when hovered */
+.overlay-box:hover .overlay {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Hover effect to change background color */
+.overlay-box:hover {
+  background-color: rgba(255, 255, 255, 0.8); /* Transparent white background on hover */
+}
+.Exclusively{
+  padding-top: 80px;
+}
+.Explore{
+  padding-top: 30px;
+}
+.Dining{
+  padding-top: 100px;
+}
+.ExploEventsAndConferencesre{
+  padding-top: 30px;
+}
+.WELLNESs{
+  padding-top: 100px;
+}

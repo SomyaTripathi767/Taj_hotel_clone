@@ -1,0 +1,306 @@
+/* Fix the navbar to the top */
+.navbar {
+  background-color: transparent !important;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Add background color and change font color when scrolled */
+.navbar.scrolled {
+  background-color: #ffffff !important;
+  box-shadow: none;
+  border-bottom: 1px solid rgb(218, 218, 217);
+  -webkit-box-pack: center;
+  justify-content: center;
+  min-height: 2.68vw;
+  color: #ad8b3a;
+}
+
+/* Change font color of navbar items when scrolled */
+.navbar.scrolled .nav-link {
+  color: #ad8b3a !important;
+}
+.navbar.scrolled .account {
+  color: #ad8b3a !important;
+}
+
+/* Styling for logo */
+.logo {
+  width: 60px;
+  color: white;
+  margin-left: 30px;
+}
+
+/* Change logo when scrolled */
+.scrolled-logo {
+  width: 50px;
+  transition: width 0.3s ease;
+}
+
+/* Other navbar items */
+.nav-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+/* Text header styling */
+.text-header {
+  padding-right: 100px;
+}
+
+.account {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding-top: 5px;
+}
+
+/* Button styling */
+.book-button {
+  width: 180px;
+  background-color: #ad8b3a;
+  color: white;
+  padding: 10px 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+
+/* Hotel background image */
+.hotel-backgaroud-imge {
+  background-image: url("https://cdn.sanity.io/images/ocl5w36p/prod5/d0804c623c7fa3863fb7c330e484bc533a8363d6-3840x1320.jpg?w=1920&auto=format");
+  position: absolute;
+  /* top: 0; */
+  height: 65vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Title styling */
+.title-hotel {
+  position: absolute;
+  top: 50%; /* Adjusted to move higher */
+  right: 20%;
+  width: 100%;
+  font-family: Cinzel, Palatino Linotype, sans-serif;
+  text-align: center;
+  /* Centering the text */
+  color: #ffffff;
+  line-height: 120%;
+  white-space: nowrap;
+}
+.title-hotel::before {
+  content: ""; /* Empty content for the lines */
+  position: absolute;
+  top: 50%; /* Aligns the lines vertically with the text */
+  width: 50px; /* Length of the lines */
+  height: 2px; /* Thickness of the lines */
+  background-color: rgb(247, 245, 245); /* Line color */
+  right: 62%;
+}
+.main-hotel-title {
+  font-family: Cinzel, "Palatino Linotype", sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 3.23vw;
+  margin: 10px 0;
+}
+
+/* Input container positioned below the heading */
+.input-container {
+  position: absolute;
+  top: 88%; /* Adjust position below heading */
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center horizontally */
+  width: 80%; /* Adjust width */
+}
+
+/* Input field styling */
+.input-container input {
+  width: 100%;
+  padding: 10px 45px 10px 40px; /* Space for icons on both sides */
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+  border: none;
+}
+
+/* Change border color on focus */
+.input-container input:focus {
+  border-color: #007bff;
+}
+
+/* Search icon (left) */
+.input-container .search-icon {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  color: #888;
+}
+
+/* Voice icon (right) */
+.input-container .voice-icon {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  color: #888;
+  cursor: pointer;
+}
+
+/* Hover effect on icons */
+.input-container .voice-icon:hover,
+.input-container .search-icon:hover {
+  color: #007bff;
+}
+
+.fg {
+  height: 11000px;
+}
+.EXPLORE-TAj {
+  position: relative;
+  top: 441px;
+  background-color: #F6F5F5;
+  height: 60vh;
+  width: 100%;
+}
+.EXPLORE-TAj h2 {
+  font-family: Cinzel, Palatino Linotype, sans-serif;
+  font-size: 3.23vw;
+  font-weight: 100;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: #45443f;
+  line-height: 120%;
+  white-space: nowrap;
+  position: relative;
+  padding-top: 60px;
+  text-align: center; /* Ensures the text is centered */
+}
+
+.EXPLORE-TAj h2::before {
+  content: ""; /* Left horizontal line */
+  position: absolute;
+  top: 80%; /* Aligns the line vertically to the middle of the text */
+  left: 420px; /* Adjust spacing from the text */
+  width: 50px; /* Length of the line */
+  height: 1px; /* Thickness of the line */
+  background-color: #45443f; /* Line color */
+}
+
+.EXPLORE-TAj h2::after {
+  content: ""; /* Right horizontal line */
+  position: absolute;
+  top: 80%; /* Aligns the line vertically to the middle of the text */
+  right: 420px; /* Adjust spacing from the text */
+  width: 50px; /* Length of the line */
+  height: 1px; /* Thickness of the line */
+  background-color: #45443f; /* Line color */
+}
+.hotel-text-explore{
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  max-width: 560px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .title-hotel {
+    font-size: 5vw;
+  }
+
+  .main-hotel-title {
+    font-size: 4vw;
+  }
+
+  .book-button {
+    width: 140px;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+
+  .logo {
+    width: 50px;
+  }
+
+  .scrolled-logo {
+    width: 40px;
+  }
+
+  .EXPLORE-TAj h2 {
+    font-size: 6vw;
+  }
+
+  .EXPLORE-TAj h2::before,
+  .EXPLORE-TAj h2::after {
+    display: none;
+  }
+
+  .hotel-text-explore {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title-hotel {
+    font-size: 7vw; /* Adjusted to ensure better readability */
+    line-height: 1.2; /* Better spacing */
+  }
+
+  .main-hotel-title {
+    font-size: 5.5vw; /* Slightly smaller to fit better */
+  }
+
+  .book-button {
+    width: 100%;
+    padding: 8px;
+    font-size: 0.8rem;
+    margin-top: 10px; /* Add space around button */
+  }
+
+  .logo {
+    width: 45px; /* Slightly smaller logo for mobile */
+  }
+
+  .scrolled-logo {
+    width: 35px; /* Adjusted to match the smaller screen */
+  }
+
+  .EXPLORE-TAj h2 {
+    font-size: 8vw; /* Increased font size for better visibility */
+    margin-bottom: 10px; /* Added spacing for clarity */
+  }
+
+  .EXPLORE-TAj h2::before,
+  .EXPLORE-TAj h2::after {
+    display: none; /* Hide lines on small screens */
+  }
+
+  .hotel-text-explore {
+    font-size: 13px; /* Adjusted font size for smaller screens */
+    padding: 0 10px; /* Added padding to avoid text touching edges */
+  }
+}
+.searchInput{
+  margin-right: 25%;
+}
+
+
+
+
+
+
+

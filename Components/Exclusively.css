@@ -1,0 +1,66 @@
+.Exclusive {
+    width: 100%;
+    height: 120vh; /* Full viewport height */
+    background: 
+      linear-gradient(
+        180deg, 
+        rgba(20, 20, 20, 1.90) 20%, /* Dark gradient at the top (opacity 0.90) */
+        rgba(31, 31, 30, 0.00) 100%, /* Transparent at the bottom */
+        #1A1919 84.9% /* Solid dark color towards the bottom */
+      ),
+      url('https://cdn.sanity.io/images/ocl5w36p/prod5/dabe79a747cb5c40e39d34ae9f669f9cbe7b4e56-1892x860.jpg?w=768&auto=format&dpr=2') no-repeat center center/cover; /* Background image */
+    display: flex;
+    justify-content: center;
+    color: white;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .text{
+    gap: 100px;
+    padding-top: 50px;
+  }
+  .first-Exlusive{
+    display: flex;
+    flex-direction: column;
+  }
+  .Exlusive-title,.for {
+    font-size: 36px;
+    font-weight: 700;
+    position: relative;
+    font-family: Cinzel, Palatino Linotype, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 3.23vw;
+    letter-spacing: -0.05em;
+    color: #ffffff;
+    white-space: nowrap;
+    text-align: start;
+  }
+  .for{
+    text-align: start;
+    left: -53px;
+    top: 25px;
+  }
+  .Exlusive-title::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    background-color: #ffff;
+    top:50%;
+    left: -60px; 
+    border: 1px solid;
+  }
+  .Exlusive-text {
+    font-size: 14px;
+    padding-top: 4px;
+    width: 450px;
+    color: white !important;
+    position: relative;
+    z-index: 2;
+    text-align: start;
+    top: 30px;
+  }
+  
+  

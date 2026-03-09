@@ -1,0 +1,83 @@
+.main-room-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .room-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px; /* Slightly increased gap to balance the space */
+    justify-content: center;
+    position: relative;
+  }
+  
+  .room-box {
+    width: 450px; /* Keeping the width same */
+    height: 450px; /* Adjusted height to reduce vertical space */
+    overflow: hidden; /* Keeps image and text contained */
+    position: relative;
+  }
+  
+  .room-picture {
+    width: 100%;
+    height: 70%; /* Reduced height of the image */
+    display: block;
+    object-fit: cover;
+  }
+  
+  .text-room {
+    width: 95%;
+    height: 35%; /* Adjusted text section height */
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    padding: 12px; /* Reduced padding inside text box */
+    position: absolute;
+    top: 65%; /* Positioned closer to the image */
+    text-align: start;
+    bottom: 5%;
+    left: 5%;
+    z-index: 10;
+  }
+  
+  
+  .text-room h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(69, 68, 63);
+    margin-bottom: 12px;
+    font-family: Cinzel, Palatino Linotype, sans-serif;
+  }
+  
+  .room-small-text {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 16px;
+    line-height: 1.5; 
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .book-now {
+    background-color: #b89553; /* Gold color for button */
+    color: #fff;
+    padding: 10px 16px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  .more-link {
+    color: #b89553;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  
+ 
